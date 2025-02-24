@@ -1,12 +1,20 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
-import Test from "./test";
-import SecondTest from "./Test1";
+import Test from "./Tests/Items";
+import SecondTest from "./Tests/FakeStore";
+import ThirdTest from "./Tests/Crypto";
+import FourthTest from "./Tests/OfficialJokes";
+import FifthTest from "./Tests/Users";
+
 
 function App() {
  
   return (<>
-    {/* <Test/> */}
-    <SecondTest/>
+    <Test/><br/><br/>
+    <SecondTest/><br/><br/>
+    <ThirdTest/><br/><br/>
+    <FourthTest/><br/><br/>
+    <FifthTest/>
   </>
     
   );
